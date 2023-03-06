@@ -13,7 +13,32 @@
     }
     .hero__name {
         margin-right: 20px;
-    }  
+    } 
+     
+    .city-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .city-info {
+        flex: 1;
+    }
+    
+    .city-info h2 {
+        margin-bottom: 0;
+    }
+    
+    .city-info p {
+        margin-top: 0;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-right: 30px;
+    }
 }
 
 /* TO DO: Background image not showing using CSS but showing using html style tag */
@@ -25,6 +50,9 @@
     justify-content: center; 
     align-items: center;
 } */
+
+
+
 
 
   
