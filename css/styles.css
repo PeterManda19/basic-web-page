@@ -16,12 +16,15 @@
     }  
 }
 
-.section-background {
+/* TO DO: Background image not showing using CSS but showing using html style tag */
+/* .section-background {
     background-image: url('images/TableMountain.jpg');
     background-size: 100% 100%;
     background-position: center center;  
     display: flex; 
     justify-content: center; 
     align-items: center;
-}
+} */
+
+
   
