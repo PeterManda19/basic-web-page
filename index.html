@@ -1,17 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>My Landing Page</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<style>
+		body {
+			background-color: whitesmoke;
+		}
+
+		.header {
+            background-color: lightgreen;
+            padding: 1em;
+        }
+
+		.main {
+            background-color: lightseagreen;
+        }
+
+		.footer {
+            background-color: lightgreen;
+            padding: 1em;
+        }
+
+		/*Keep the footer at the bottom*/
+        .clearfix {
+            overflow: auto;
+            zoom: 1;
+        }
+
+		/*Making the page responsive*/
+        @media(min-width: 800px){
+            /*Use flexbox to put the menu items next to each other when the screen is wide*/
+            .menu {
+                display: flex;
+            }
+        } 
+
+		.content {
+			width: 50%;
+            padding: 1em;
+        }
+		
+
+		/* Styling the menu.*/
+        .menu li {
+            list-style: none;
+            margin: 1em;
+            padding: 0em;
+        }
+
+		.menu a {
+            /* Ensure one can click anyware in the li for the link */
+            padding: 1em;
+            display: inline-block;
+            width: 6em;
+        }
+
+		.menu a:hover {
+            /* Change the menu color to darker green when hovering over a link*/
+            background-color : white;
+        }
+	</style>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Website Landing Page</title>
 </head>
 <body>
-	<h1>Welcome to My Website</h1>
-	<p>Check out my webpages:</p>
-	<ul>
-		<li><a href="web_page1.html">Web page 1</a></li>
-		<li><a href="web_page2.html">Web page 2</a></li>
-	</ul>
-    <p> <strong>Web page 1 was created with html code only.</strong> </p>
-    <p> <strong>Web page 2 was created with html and CSS framework.</strong> </p>
+	<div class="container" >
+		<div class="header" >
+			<h1>Welcome to my basic_website project</h1>
+			<ul class="menu">
+				<li><a href="my-webpage.html"><strong>Web page 1</strong></a></li>
+				<li><a href="my-webpage-grid.html"><strong>Web page 2</strong></a></li>
+			</ul>
+		</div>
+		<div class="main clearfix" >
+			<div class="content" >
+				<p>Web page 1 uses HTML and CSS to create a web page without a framework, 
+					it's like building a project from scratch without any template to build from. 
+					I have to figure out everything on my own, from where to put the 
+					items on the web page.
+				</p>
+				<p>Web page 2 uses CSS grid framework. 
+					A framework helps me build the web page faster and easier. 
+					A framework is like a set of tools that already have some things figured out, 
+					so when building the web page I do not have to start from scratch. 
+					It is like having an already existing project that I can customize to my liking.
+				</p>
+			</div>
+		</div>
+		<div class="footer" >
+			<h4>@PeterManda19</h4>
+		</div>
+	</div>
 </body>
 </html>
