@@ -5,24 +5,13 @@
   <style>
     .header {
       background-image: url('images/TableMountain.jpg');
-      background-size: 100% 100%; 
+      background-size: cover; 
+      height: 500px;
       background-position: center center; 
       display: flex; 
       justify-content: center; 
       align-items: center;
     }
-
-    .hero {
-      background-image: url('hero-image.jpg');
-      background-size: cover;
-      height: 500px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-    
 
     .hero-title {
       display: flex;
@@ -36,6 +25,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        color: black;
       }
       .hero-name {
         margin-right: 20px;
@@ -68,6 +58,26 @@
       padding: 1em;	
     }
 
+    .section2 {
+      margin: 10px;
+    }
+
+    .section2 table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    } 
+
+    .section2 th, td {
+      padding: 10px;
+      text-align: left;
+      border: 2px solid black;
+    } 
+
+    .section2 th {
+      background-color: #ccc;
+    }
+
   </style>
 
     <meta charset="UTF-8">
@@ -80,7 +90,7 @@
     <div class="header">
       <h1 class="hero-title">
         <span class="hero-name">Peter Manda</span>
-        <img src="images/PeterManda.jpeg" alt="My photo" width="100" height="auto">
+        <img src="images/PeterManda.jpeg" alt="My photo" width="200" height="auto">
       </h1>
     </div>
     <div class="main clearfix">
@@ -106,8 +116,44 @@
           scenery, making it a must-visit destination in South Africa.
         </p>
       </div>
-      <div class="content">
-        
+      <div class="content section2">
+        <h2>Foreign Language</h2>
+        <p>
+          Swahili is a language that I would like to learn. 
+          This Bantu language is spoken by over 100 million people in Africa, 
+          and is the official language of Kenya, Tanzania, and Uganda. 
+          I am interested in learning Swahili because it is a widely spoken language in East Africa, 
+          where I hope to travel one day. Additionally, Swahili has a rich history and culture associated with it. 
+          For example, did you know that the word "Swahili" comes from the Arabic word "sahel," which means 
+          "coast"? This reflects the historical influence of Arabic traders and settlers along the East African coast, 
+          which has left a lasting impact on Swahili language and culture.
+        </p>
+        <table border="3" cellpadding="8" cellspacing="0">
+            <tr>
+              <th align="left">English Phrase</th>
+              <th align="left">Swahili Translation</th>
+            </tr>
+            <tr>
+              <td align="left">Hello</td>
+              <td align="left">Habari</td>
+            </tr>
+            <tr>
+              <td align="left">Goodbye</td>
+              <td align="left">Kwaheri</td>
+            </tr>
+            <tr>
+              <td align="left">Thank you</td>
+              <td align="left">Asante</td>
+            </tr>
+            <tr>
+              <td align="left">Please</td>
+              <td align="left">Tafadhali</td>
+            </tr>
+            <tr>
+              <td align="left">Excuse me</td>
+              <td align="left">Samahani</td>
+            </tr>
+          </table> 
       </div>
 
     </div>
