@@ -12,97 +12,27 @@
       justify-content: center; 
       align-items: center;
     }
-
-    .hero-title {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: whitesmoke;
-    }
-
-    @media screen and (min-width: 900px) {
-      .hero-title {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        color: black;
-      }
-
-      .hero-name {
-        margin-right: 20px;
-      }
-
-      .left, .right {
-        float: left;
-        width: 33.33%;
-        box-sizing: border-box;  /*include padding and border in width */
-        padding: 1em; 
-      }
-    }  
-
-    .main {
-      background-color: lightseagreen;
-    }
-
-    .content {
-			width: 90%;
-      padding: 5em;
-    }
-
-    /*Keep the footer at the bottom*/
-    .clearfix {
-      overflow: auto;
-      zoom: 1;
-    }
-
-    .my-image {
-      display: block; /* This ensures that the image is a block element and can have margins */
-      margin-bottom: 20px; /* This adds a 20px margin below the image */
-      margin-right: 30px; /* This adds a 20px margin right of the image */
-    }
-    
-    .footer {
-      background-color: lightgreen;
-      padding: 1em;	
-    }
-
-    .section2 {
-      margin: 10px;
-    }
-
-    .section2 table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-    } 
-
-    .section2 th, td {
-      padding: 10px;
-      text-align: left;
-      border: 2px solid black;
-    } 
-
-    .section2 th {
-      background-color: #ccc;
-    }
-
   </style>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Page 1</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Page 1</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
   <div class="container">
+    
     <div class="header">
       <h1 class="hero-title">
         <span class="hero-name">Peter Manda</span>
         <img src="images/PeterManda.jpeg" alt="My photo" width="200" height="auto">
       </h1>
     </div>
+
     <div class="main clearfix">
-      <div class="content">
+     
+      <div class="content"> <!--open Which City section -->
         <h2>Which City?</h2>
         <img class="my-image"  src="images/Stellenbosch.jpeg" alt="Description of the image" align="left" width="300" height="auto">
         <p> 
@@ -123,8 +53,9 @@
           beautiful city with a rich history and culture, world-class wine industry, and stunning natural 
           scenery, making it a must-visit destination in South Africa.
         </p>
-      </div>
-      <div class="content section2">
+      </div> <!-- close Which City section -->
+
+      <div class="content section2"> <!--open  Foreign langauge section-->
         <h2>Foreign Language</h2>
         <p>
           Swahili is a language that I would like to learn. 
@@ -162,47 +93,48 @@
               <td align="left">Samahani</td>
             </tr>
           </table> 
-      </div>
-      <div class="content">
+      </div> <!--close Foreign langauge section-->
+
+      <div class="content">  <!-- open Historical places -->
         <h2>Historic Places in Johannesburg</h2>
+        
         <div class="left">
-          <h3>Apartheid Museum</h3>
-          <div class="left">
-            <p>1. The Apartheid Museum chronicles the history of apartheid in South Africa, including the rise of apartheid, the struggle against it, and its eventual dismantling.</p>
-            <p>2. The museum contains over 20 exhibition areas, each with its own unique audio-visual experience.</p>
-            <p>3. The museum's exhibits include artifacts, photographs, and multimedia displays that provide a powerful and immersive experience of apartheid's impact on South Africa and its people.</p>
-          </div>
-          <div class="right">
-            <img src="images/apartheid-museum.jpeg" alt="Apartheid Museum" width="200" height="auto">
-          </div>
+          <h3 >Apartheid Museum</h3>
+          <p class="left">
+            1. The Apartheid Museum chronicles the history of apartheid in South Africa, including the rise of apartheid, the struggle against it, and its eventual dismantling.
+            2. The museum contains over 20 exhibition areas, each with its own unique audio-visual experience.
+            3. The museum's exhibits include artifacts, photographs, and multimedia displays that provide a powerful and immersive experience of apartheid's impact on South Africa and its people.
+          </p>
+          <img class="img-right right" src="images/apartheid-museum.jpeg" alt="Apartheid Museum" width="200" height="auto">
         </div>
+       
         <div class="right">
-          <h3>Constitution Hill</h3>
-          <div class="left">
-            <p>1. Constitution Hill is a former prison and military fort that now houses the Constitutional Court of South Africa.</p>
-            <p>2. The prison was used to detain anti-apartheid activists like Nelson Mandela, Mahatma Gandhi, and Albert Luthuli, as well as common criminals.</p>
-            <p>3. In addition to the court and prison museums, Constitution Hill also contains an art gallery, a bookshop, and a restaurant.</p>
-          </div>
-          <div class="right">
-            <img src="images/constitution-hill.jpeg" alt="Constitution Hill" width="200" height="auto">
-          </div>
+          <h3 >Constitution Hill</h3>
+          <p class="left">
+            1. The Constitution Hill is a former prison and military fort that now houses the Constitutional Court of South Africa.
+            2. The prison was used to detain anti-apartheid activists like Nelson Mandela, Mahatma Gandhi, and Albert Luthuli, as well as common criminals.
+            3. In addition to the court and prison museums, Constitution Hill also contains an art gallery, a bookshop, and a restaurant.
+          </p>  
+          <img class="img-left left" src="images/constitution-hill.jpeg" alt="Constitution Hill" width="200" height="auto">
         </div>
+       
         <div class="right">
-          <h3>The Johannesburg Art Gallery</h3>
-          <div class="left">
-            <p>1. The Johannesburg Art Gallery (JAG) is the largest art museum in sub-Saharan Africa, with a collection of over 9,000 works of art.</p>
-            <p>2. JAG was established in 1910 and has been located in its current building in Joubert Park since 1986.</p>
-            <p>3. The museum's collection includes works by famous South African artists like Gerard Sekoto, William Kentridge, and JH Pierneef, as well as works by international artists like Pablo Picasso, Claude Monet, and Auguste Rodin.</p>
-          </div>
-          <div class="right">
-            <img src="images/johannesburg-art-gallery.jpeg" alt="The Johannesburg Art Gallery" width="200" height="auto">
-          </div>
+          <h3 >The Johannesburg Art Gallery</h3>
+          <p class="left">
+            1. The Johannesburg Art Gallery (JAG) is the largest art museum in sub-Saharan Africa, with a collection of over 9,000 works of art.
+            2. JAG was established in 1910 and has been located in its current building in Joubert Park since 1986.
+            3. The museum's collection includes works by famous South African artists like Gerard Sekoto, William Kentridge, and JH Pierneef, as well as works by international artists like Pablo Picasso, Claude Monet, and Auguste Rodin.
+          </p>
+          <img class="img-right right" src="images/johannesburg-art-gallery.jpeg" alt="The Johannesburg Art Gallery" width="200" height="auto">
         </div> 
-      </div>
-    </div>
+      </div> <!--   close Historical places -->
+        
+    </div> <!-- close main -->
+
     <div class="footer">
       <h4>@PeterManda19</h4>
     </div>
-  </div>
+
+  </div> <!-- close main container -->
 </body>
 </html>
