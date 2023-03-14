@@ -61,23 +61,23 @@
     padding: 1em;	
 }
 
-.section2 {
+.foreign-lang {
     margin: 0px;
 }
 
-.section2 table {
+.foreign-lang table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 } 
 
-.section2 th, td {
+.foreign-lang th, td {
     padding: 10px;
     text-align: left;
     border: 2px solid black;
 } 
 
-.section2 th {
+.foreign-lang th {
     background-color: #ccc;
 }
 
@@ -86,6 +86,9 @@
     margin: 1em 1em 1em 1em;
 }
 
-.historical-place{
+.flex-container {
     display: flex;
+    align-items: flex-start;
+    padding: 0px 0px 0px 0px;
 }
+  
