@@ -29,10 +29,9 @@
 
     .left, .right {
         float: left;
-        width: 33.33%;
+        width: 33%;
         box-sizing: border-box;  /*include padding and border in width */
         padding: 1em; 
-        
     }
 }  
 
@@ -85,15 +84,8 @@
 .img-right  {
     float: right;
     margin: 1em 1em 1em 1em;
-    padding: 10px;
-}
-
-.img-left {
-    float: left;
-    margin: 1em 1em 1em 1em;
 }
 
 .historical-place{
     display: flex;
 }
-
