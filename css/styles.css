@@ -15,7 +15,7 @@
     color: whitesmoke;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 760px) {
     .hero-title {
         flex-direction: row;
         justify-content: center;
@@ -29,18 +29,24 @@
 
     .left, .right {
         float: left;
-        width: 33%;
+        max-width: 33%;
         box-sizing: border-box;  /*include padding and border in width */
         padding: 1em; 
     }
-}  
 
+    .my-image {
+        display: block; /* This ensures that the image is a block element and can have margins */
+        margin: 10px 10px 10px 10px;
+        max-width: 25%;
+    }
+}
+  
 .main {
     background-color: lightseagreen;
 }
 
 .content {
-    width: 90%;
+    max-width: 100%;
     padding: 10em;
 }
 
@@ -48,12 +54,6 @@
 .clearfix {
     overflow: auto;
     zoom: 1;
-}
-
-.my-image {
-    display: block; /* This ensures that the image is a block element and can have margins */
-    margin-bottom: 20px; /* This adds a 20px margin below the image */
-    margin-right: 30px; /* This adds a 20px margin right of the image */
 }
 
 .footer {
@@ -66,7 +66,7 @@
 }
 
 .foreign-lang table {
-    width: 100%;
+    max-width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 } 
@@ -79,11 +79,6 @@
 
 .foreign-lang th {
     background-color: #ccc;
-}
-
-.img-right  {
-    float: right;
-    margin: 1em 1em 1em 1em;
 }
 
 .flex-container {
