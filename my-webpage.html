@@ -1,142 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <style>
     .header {
-      background-image: url('images/TableMountain.jpg');
-      background-size: cover; 
-      height: 500px;
-      background-position: center center; 
-      display: flex; 
-      justify-content: center; 
-      align-items: center;
-    }
+    background-image: url('images/TableMountain.jpg');
+    background-size: cover; 
+    height: 500px;
+    background-position: center center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+} 
   </style>
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Page 1</title>
+  <title>Web page 1</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-<body>
-  <div class="container">
-    
-    <div class="header">
-      <h1 class="hero-title">
-        <span class="hero-name">Peter Manda</span>
-        <img src="images/PeterManda.jpeg" alt="My photo" width="200" height="auto">
-      </h1>
-    </div>
+<body class="body box"> <!-- Main Container -->
+  
+  <!-- Intro -->
+  <div class="intro box header">
+    <h1 class="hero-title">
+      <span class="hero-name">Peter Manda</span>
+      <img src="images/PeterManda.jpeg" alt="My photo" width="200" height="auto">
+    </h1>
+  </div>
 
-    <div class="main clearfix">
-     
-      <div class="content"> <!--open Which City section -->
-        <h2>Which City?</h2>
-        <img class="my-image"  src="images/Stellenbosch.jpeg" alt="Description of the image" align="left" width="300" height="auto">
-        <p> 
-          The city I would like to visit is Stellenbosch. 
-          Located in the heart of the Western Cape wine region, 
-          Stellenbosch is a picturesque town that's surrounded by rolling vineyards and majestic mountains. 
-          The mountains offer plenty of hiking trails and stunning views of the surrounding landscape. 
-          It's a great place to sample some of the country's best wines and explore the 
-          historic Cape Dutch architecture. 
-          Stellenbosch is the second oldest town in South Africa, founded in 1679 by Simon van der Stel, 
-          the Governor of the Cape Colony. 
-          The city has a rich cultural heritage, with numerous museums, galleries, and historic buildings, 
-          including the Village Museum, which showcases the town's colonial history. 
-          The city has a vibrant food scene, with a variety of restaurants and cafes serving up delicious 
-          local cuisine, including traditional South African dishes like bobotie and biltong. 
-          Stellenbosch is a popular destination for outdoor enthusiasts, with plenty of opportunities for 
-          cycling, mountain biking, horse riding, and golfing. Overall, Stellenbosch is a fascinating and 
-          beautiful city with a rich history and culture, world-class wine industry, and stunning natural 
-          scenery, making it a must-visit destination in South Africa.
-        </p>
-      </div> <!-- close Which City section -->
+  <!-- Which City? -->
+  <div class="which-city box">
+    <h1>Which City?</h1>
 
-      <div class="content foreign-lang"> <!--open  Foreign langauge section-->
-        <h2>Foreign Language</h2>
-        <p>
-          Swahili is a language that I would like to learn. 
-          This Bantu language is spoken by over 100 million people in Africa, 
-          and is the official language of Kenya, Tanzania, and Uganda. 
-          I am interested in learning Swahili because it is a widely spoken language in East Africa, 
-          where I hope to travel one day. Additionally, Swahili has a rich history and culture associated with it. 
-          For example, did you know that the word "Swahili" comes from the Arabic word "sahel," which means 
-          "coast"? This reflects the historical influence of Arabic traders and settlers along the East African coast, 
-          which has left a lasting impact on Swahili language and culture.
-        </p>
-        <table border="3" cellpadding="8" cellspacing="0">
-            <tr>
-              <th align="left">English Phrase</th>
-              <th align="left">Swahili Translation</th>
-            </tr>
-            <tr>
-              <td align="left">Hello</td>
-              <td align="left">Habari</td>
-            </tr>
-            <tr>
-              <td align="left">Goodbye</td>
-              <td align="left">Kwaheri</td>
-            </tr>
-            <tr>
-              <td align="left">Thank you</td>
-              <td align="left">Asante</td>
-            </tr>
-            <tr>
-              <td align="left">Please</td>
-              <td align="left">Tafadhali</td>
-            </tr>
-            <tr>
-              <td align="left">Excuse me</td>
-              <td align="left">Samahani</td>
-            </tr>
-          </table> 
-      </div> <!--close Foreign langauge section-->
+  </div>
 
-      <div class="content">  <!-- open Historical places -->
-        <h2>Historic Places in Johannesburg</h2>
-      
-        <div class="right flex-container">
-          <h3>Apartheid Museum</h3>
-          <p class="right">
-            1. The Apartheid Museum chronicles the history of apartheid in South Africa, including the rise of apartheid, the struggle against it, and its eventual dismantling.
-            2. The museum contains over 20 exhibition areas, each with its own unique audio-visual experience.
-            3. The museum's exhibits include artifacts, photographs, and multimedia displays that provide a powerful and immersive experience of apartheid's impact on South Africa and its people.
-          </p>
-          <img class="my-image" src="images/apartheid-museum.jpeg" alt="Apartheid Museum" width="300" height="auto">
-        </div>
-       
-        
-        <div class="right flex-container">
-          <h3>Constitution Hill</h3>
-          <p class="right">
-            1. The Constitution Hill is a former prison and military fort that now houses the Constitutional Court of South Africa.
-            2. The prison was used to detain anti-apartheid activists like Nelson Mandela, Mahatma Gandhi, and Albert Luthuli, as well as common criminals.
-            3. In addition to the court and prison museums, Constitution Hill also contains an art gallery, a bookshop, and a restaurant.
-          </p>  
-          <img class="my-image" src="images/constitution-hill.jpeg" alt="Constitution Hill" width="300" height="auto">
-        </div>
-       
-        
-        <div class="right flex-container">
-          <h3 >The Johannesburg Art Gallery</h3>
-          <p class="right">
-            1. The Johannesburg Art Gallery (JAG) is the largest art museum in sub-Saharan Africa, with a collection of over 9,000 works of art.
-            2. JAG was established in 1910 and has been located in its current building in Joubert Park since 1986.
-            3. The museum's collection includes works by famous South African artists like Gerard Sekoto, William Kentridge, and JH Pierneef, as well as works by international artists like Pablo Picasso, Claude Monet, and Auguste Rodin.
-          </p>
-          <img class="my-image" src="images/johannesburg-art-gallery.jpeg" alt="The Johannesburg Art Gallery" width="300" height="auto">
-        </div> 
-      </div> <!--   close Historical places -->
-        
-    </div> <!-- close main -->
+  <!-- Foreign language -->
+  <div class="foreign-lang box">
+    <h1>Foreign Language</h1>
 
-    <div class="footer">
-      <h4>@PeterManda19</h4>
-    </div>
+  </div>
 
-  </div> <!-- close main container -->
+  <!-- Historic places in Jhb -->
+  <div class="historic-places box">
+    <h1>Historic places</h1>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer box">
+    <h3>@PeterManda19</h3>
+
+  </div>
+
 </body>
 </html>

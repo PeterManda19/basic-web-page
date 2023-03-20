@@ -1,12 +1,47 @@
-/* .header {
-    background-image: url('images/TableMountain.jpg');
-    background-size: cover; 
-    height: 500px;
-    background-position: center center; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-} */
+.body{
+    background-color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.intro{
+    background-color: #023047;
+
+}
+
+.which-city{
+    background-color: #FFB703;
+
+}
+
+.foreign-lang{
+    background-color: #FB8500;
+
+}
+
+.historic-places{
+    background-color: #FFB703;
+
+
+}
+
+.footer{
+    background-color: #219EBC;
+
+}
+
+.box {
+    /* box-model */
+    border: 5px solid;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+
+    display: flex;
+    flex-direction: column
+   
+}
 
 .hero-title {
     display: flex;
@@ -26,64 +61,4 @@
     .hero-name {
         margin-right: 20px;
     }
-
-    .left, .right {
-        float: left;
-        max-width: 33%;
-        box-sizing: border-box;  /*include padding and border in width */
-        padding: 1em; 
-    }
-
-    .my-image {
-        display: block; /* This ensures that the image is a block element and can have margins */
-        margin: 10px 10px 10px 10px;
-        max-width: 25%;
-    }
-}
-  
-.main {
-    background-color: lightseagreen;
-}
-
-.content {
-    max-width: 100%;
-    padding: 10em;
-}
-
-/*Keep the footer at the bottom*/
-.clearfix {
-    overflow: auto;
-    zoom: 1;
-}
-
-.footer {
-    background-color: lightgreen;
-    padding: 1em;	
-}
-
-.foreign-lang {
-    margin: 0px;
-}
-
-.foreign-lang table {
-    max-width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-} 
-
-.foreign-lang th, td {
-    padding: 10px;
-    text-align: left;
-    border: 2px solid black;
-} 
-
-.foreign-lang th {
-    background-color: #ccc;
-}
-
-.flex-container {
-    display: flex;
-    align-items: flex-start;
-    padding: 0px 0px 0px 0px;
-}
-  
+}    
