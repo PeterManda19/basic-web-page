@@ -21,13 +21,10 @@
 
 .historic-places{
     background-color: #FFB703;
-
-
 }
 
 .footer{
     background-color: #219EBC;
-
 }
 
 .box {
@@ -71,20 +68,3 @@
     }
 
 }     
-
-
-
-/*Keep the footer at the bottom*/
-.clearfix {
-    overflow: auto;
-    zoom: 1;
-}
-
-.content {
-    max-width: 100%;
-    padding: 10em;
-}
-
-.right{
-    text-align: right;
-}
