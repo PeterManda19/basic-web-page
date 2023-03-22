@@ -80,3 +80,7 @@
 .float-img-left{
     float: left;
 }
+
+.width-span{
+    max-width: 100%;
+}
