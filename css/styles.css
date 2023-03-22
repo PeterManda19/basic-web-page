@@ -68,14 +68,15 @@
         display: inline-flex;
     }
 
-
-
     .width{
         max-width: 50%;
     }
-    
-    .breadth{
-        max-width: 50%;
-    }
+}   
 
-}     
+.float-img-right{
+    float: right;
+}
+
+.float-img-left{
+    float: left;
+}
