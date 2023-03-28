@@ -139,11 +139,7 @@
     .display{
         display: flex;
     }
-
-    .display1{
-        display: inline-flex;
-    }
-
+    
     .width{
         max-width: 50%;
     }
