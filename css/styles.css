@@ -112,7 +112,7 @@
 
 .box {
     /* box-model */
-    border: 5px solid;
+    border: 1px;
     padding: 1em;
     margin: 1em;
     margin-bottom: 0.5em;
