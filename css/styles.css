@@ -25,6 +25,13 @@
     .menu {
         display: flex;
     }
+
+    /*Position the side-bar & content*/
+    .side-bar {
+        float: left;
+        width: 50%;
+        padding: 1em;
+    }
 } 
 
 .content {
@@ -49,6 +56,11 @@
 .menu a:hover {
     /* Change the menu color to darker green when hovering over a link*/
     background-color : white;
+}
+
+/*Add some space around the edges*/
+.side-bar {
+    padding: 1em;
 }
 
 /* ############################################################################################# */
