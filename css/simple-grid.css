@@ -95,6 +95,7 @@ p {
 
 .justify {
   text-align: justify;
+
 }
 
 /*Keep the footer at the bottom*/
@@ -292,4 +293,17 @@ p {
 
 .c4{
   background-color: #219EBC;
+}
+
+.space {
+  margin: 20px 20px 20px 20px;
+}
+
+.display {
+  display: flexbox;
+}
+
+.text {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
 }

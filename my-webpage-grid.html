@@ -16,16 +16,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A Website Built with Flexbox</title>
+  <title>A Website Built with CSS Grid Framework</title>
   <link rel="stylesheet" type="text/css" href="css/simple-grid.css">
   <link rel="stylesheet" type="text/css" href="css/simple-grid.min.css">
 </head>
 <body class="c1"> <!-- Main Container -->
   <!-- Intro -->
   <div class="container bg-img col-12 c3 center">
-    <div class="row">
+    <div class="row col-6">
       <div class="col-5 center">
-        <h1 class="h1">Peter Manda</h1>
+        <h2 class="h2 font-heavy">Peter Manda</h2>
       </div>
       <div class="col-7 center">
         <img src="images/PeterManda.jpeg" alt="My photo" width="125" height="auto">
@@ -35,38 +35,42 @@
   <!-- Which City? -->
   <div class="container col-12 c2">
     <div class="row">
-      <div class="h2 col-6">
-        <h2>Which City?</h2>
+      <div class="h3 col-6">
+        <h3>Which City?</h3>
       </div>
-      <div class="col-6">
-        <img src="images/Stellenbosch.jpeg" alt="Description of the image" align="left" width="200" height="auto">
+      
+      <div class="row">
+        <div class="">
+          <img class="space" src="images/Stellenbosch.jpeg" alt="Description of the image" align="left" width="200" height="auto">
+        </div>
+        <div class="display">
+          <p class=""> 
+            The city I would like to visit is Stellenbosch. 
+            Located in the heart of the Western Cape wine region, 
+            Stellenbosch is a picturesque town that's surrounded by rolling vineyards and majestic mountains. 
+            The mountains offer plenty of hiking trails and stunning views of the surrounding landscape. 
+            It's a great place to sample some of the country's best wines and explore the 
+            historic Cape Dutch architecture. 
+            Stellenbosch is the second oldest town in South Africa, founded in 1679 by Simon van der Stel, 
+            the Governor of the Cape Colony. 
+            The city has a rich cultural heritage, with numerous museums, galleries, and historic buildings, 
+            including the Village Museum, which showcases the town's colonial history. 
+            The city has a vibrant food scene, with a variety of restaurants and cafes serving up delicious 
+            local cuisine, including traditional South African dishes like bobotie and biltong. 
+            Stellenbosch is a popular destination for outdoor enthusiasts, with plenty of opportunities for 
+            cycling, mountain biking, horse riding, and golfing. Overall, Stellenbosch is a fascinating and 
+            beautiful city with a rich history and culture, world-class wine industry, and stunning natural 
+            scenery, making it a must-visit destination in South Africa.
+          </p>
+        </div>
       </div>
-      <div class="col-6">
-        <p> 
-          The city I would like to visit is Stellenbosch. 
-          Located in the heart of the Western Cape wine region, 
-          Stellenbosch is a picturesque town that's surrounded by rolling vineyards and majestic mountains. 
-          The mountains offer plenty of hiking trails and stunning views of the surrounding landscape. 
-          It's a great place to sample some of the country's best wines and explore the 
-          historic Cape Dutch architecture. 
-          Stellenbosch is the second oldest town in South Africa, founded in 1679 by Simon van der Stel, 
-          the Governor of the Cape Colony. 
-          The city has a rich cultural heritage, with numerous museums, galleries, and historic buildings, 
-          including the Village Museum, which showcases the town's colonial history. 
-          The city has a vibrant food scene, with a variety of restaurants and cafes serving up delicious 
-          local cuisine, including traditional South African dishes like bobotie and biltong. 
-          Stellenbosch is a popular destination for outdoor enthusiasts, with plenty of opportunities for 
-          cycling, mountain biking, horse riding, and golfing. Overall, Stellenbosch is a fascinating and 
-          beautiful city with a rich history and culture, world-class wine industry, and stunning natural 
-          scenery, making it a must-visit destination in South Africa.
-        </p>
-      </div>
+      
     </div>
   </div>
   <!-- Foreign language -->
   <div class="container col-12 c3">
-    <div class="h2 col-6">
-      <h2>Foreign Language</h2>
+    <div class="h3 col-6">
+      <h3>Foreign Language</h3>
     </div>
     <div class="container col-12">
       <p>
@@ -111,8 +115,8 @@
   </div>
   <!-- Historic places in Jhb -->
   <div class="container col-12 c2">
-    <div class="h2 col-12">
-      <h2>Historic Places in Johannesburg</h2>
+    <div class="h3 col-12">
+      <h3>Historic Places in Johannesburg</h3>
     </div>
     <div class="row">
       <div class="col-4">
