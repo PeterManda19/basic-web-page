@@ -1,28 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-    .bg-img {
-      background-image: url('images/TableMountain.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 250px;
-      background-position: center center; 
-      display: flex; 
-      justify-content: center; 
-      align-items: center;
-    }
-  </style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>A Website Built with CSS Grid Framework</title>
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
   <link rel="stylesheet" type="text/css" href="css/simple-grid.css">
   <link rel="stylesheet" type="text/css" href="css/simple-grid.min.css">
 </head>
 <body class="c1"> <!-- Main Container -->
   <!-- Intro -->
-  <div class="container bg-img col-12 c3 center">
+  <div class="container bg-image col-12 center">
     <div class="row col-6">
       <div class="col-5 center">
         <h2 class="h2 font-heavy">Peter Manda</h2>
@@ -35,41 +24,35 @@
   <!-- Which City? -->
   <div class="container col-12 c2">
     <div class="row">
-      <div class="h3 col-6">
+      <div class="h3 col-6 center">
         <h3>Which City?</h3>
-      </div>
-      
+      </div>   
       <div class="row">
-        <div class="">
-          <img class="space" src="images/Stellenbosch.jpeg" alt="Description of the image" align="left" width="200" height="auto">
-        </div>
-        <div class="display">
-          <p class=""> 
-            The city I would like to visit is Stellenbosch. 
-            Located in the heart of the Western Cape wine region, 
-            Stellenbosch is a picturesque town that's surrounded by rolling vineyards and majestic mountains. 
-            The mountains offer plenty of hiking trails and stunning views of the surrounding landscape. 
-            It's a great place to sample some of the country's best wines and explore the 
-            historic Cape Dutch architecture. 
-            Stellenbosch is the second oldest town in South Africa, founded in 1679 by Simon van der Stel, 
-            the Governor of the Cape Colony. 
-            The city has a rich cultural heritage, with numerous museums, galleries, and historic buildings, 
-            including the Village Museum, which showcases the town's colonial history. 
-            The city has a vibrant food scene, with a variety of restaurants and cafes serving up delicious 
-            local cuisine, including traditional South African dishes like bobotie and biltong. 
-            Stellenbosch is a popular destination for outdoor enthusiasts, with plenty of opportunities for 
-            cycling, mountain biking, horse riding, and golfing. Overall, Stellenbosch is a fascinating and 
-            beautiful city with a rich history and culture, world-class wine industry, and stunning natural 
-            scenery, making it a must-visit destination in South Africa.
-          </p>
-        </div>
+        <img class="space" src="images/Stellenbosch.jpeg" alt="Description of the image" align="left" width="320" height="auto">
+        <p class="city"> 
+          The city I would like to visit is Stellenbosch. 
+          Located in the heart of the Western Cape wine region, 
+          Stellenbosch is a picturesque town that's surrounded by rolling vineyards and majestic mountains. 
+          The mountains offer plenty of hiking trails and stunning views of the surrounding landscape. 
+          It's a great place to sample some of the country's best wines and explore the 
+          historic Cape Dutch architecture. 
+          Stellenbosch is the second oldest town in South Africa, founded in 1679 by Simon van der Stel, 
+          the Governor of the Cape Colony. 
+          The city has a rich cultural heritage, with numerous museums, galleries, and historic buildings, 
+          including the Village Museum, which showcases the town's colonial history. 
+          The city has a vibrant food scene, with a variety of restaurants and cafes serving up delicious 
+          local cuisine, including traditional South African dishes like bobotie and biltong. 
+          Stellenbosch is a popular destination for outdoor enthusiasts, with plenty of opportunities for 
+          cycling, mountain biking, horse riding, and golfing. Overall, Stellenbosch is a fascinating and 
+          beautiful city with a rich history and culture, world-class wine industry, and stunning natural 
+          scenery, making it a must-visit destination in South Africa.
+        </p>
       </div>
-      
     </div>
   </div>
   <!-- Foreign language -->
   <div class="container col-12 c3">
-    <div class="h3 col-6">
+    <div class="h3 col-6 center">
       <h3>Foreign Language</h3>
     </div>
     <div class="container col-12">
@@ -115,47 +98,47 @@
   </div>
   <!-- Historic places in Jhb -->
   <div class="container col-12 c2">
-    <div class="h3 col-12">
+    <div class="h3 col-12 center">
       <h3>Historic Places in Johannesburg</h3>
     </div>
     <div class="row">
-      <div class="col-4">
-        <h4 class="h4">Apartheid Museum</h4>  
+      <div class="col-4"> 
+        <h4 class="h4">Apartheid Museum</h4>
         <div class="row">
-          <div class="col-7">
+          <div class="col-6 places image-container"><img src="images/apartheid-museum.jpeg" alt="Apartheid Museum" width="125"></div>
+          <!-- <div class="col-6 text-container"> -->
             <p>
               1. The Apartheid Museum chronicles the history of apartheid in South Africa, including the rise of apartheid, the struggle against it, and its eventual dismantling.
               2. The museum contains over 20 exhibition areas, each with its own unique audio-visual experience.
               3. The museum's exhibits include artifacts, photographs, and multimedia displays that provide a powerful and immersive experience of apartheid's impact on South Africa and its people.
             </p>
-          </div> 
-          <div class="col-5"><img src="images/apartheid-museum.jpeg" alt="Apartheid Museum" width="125"></div>
+          <!-- </div>  -->
         </div>   
       </div>
       <div class="col-4">
         <h4 class="h4">Constitution Hill</h4>
-        <div class="row">
-          <div class="col-7">
+        <div class="row"> 
+          <div class="col-6 places image-container"><img src="images/constitution-hill.jpeg" alt="Constitution Hill" width="125"></div>
+          <!-- <div class="col-6 text-container"> -->
             <p>
               1. Constitution Hill is a former prison and military fort that now houses the Constitutional Court of South Africa.
               2. The prison was used to detain anti-apartheid activists like Nelson Mandela, Mahatma Gandhi, and Albert Luthuli, as well as common criminals.
               3. In addition to the court and prison museums, Constitution Hill also contains an art gallery, a bookshop, and a restaurant.
             </p>
-          </div>
-          <div class="col-5"><img src="images/constitution-hill.jpeg" alt="Constitution Hill" width="125"></div>
+          <!-- </div> -->
         </div> 
       </div>    
       <div class="col-4">
         <h4 class="h4">Johannesburg Art Gallery</h4>
         <div class="row">
-          <div class="col-7">
-            <p>
+          <div class="col-6 places image-container"><img src="images/johannesburg-art-gallery.jpeg" alt="The Johannesburg Art Gallery" width="125"></div>
+          <!-- <div class="col-6 text-container"> -->
+            <p class="">
               1. The Johannesburg Art Gallery (JAG) is the largest art museum in sub-Saharan Africa, with a collection of over 9,000 works of art.
               2. JAG was established in 1910 and has been located in its current building in Joubert Park since 1986.
               3. The museum's collection includes works by famous South African artists like Gerard Sekoto, William Kentridge, and JH Pierneef, as well as works by international artists like Pablo Picasso, Claude Monet, and Auguste Rodin.
             </p>
-          </div>
-          <div class="col-5"><img src="images/johannesburg-art-gallery.jpeg" alt="The Johannesburg Art Gallery" width="125"></div>
+          <!-- </div> -->
         </div>
       </div>
     </div>

@@ -1,0 +1,55 @@
+.bg-image {
+    background-image: url('../images/TableMountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    background-position: center center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}  
+
+/*wrap text around image*/
+.image-container {
+    float: left;
+    width: 40%; /* adjust as needed */
+    margin-right: 20px; /* adjust as needed */
+}
+  
+.text-container {
+    overflow: hidden; /* this ensures that the container wraps around the floated image */
+}
+   
+.city{
+    padding-top: 10px;
+}
+
+.places{
+    padding-top: 0px;
+}
+
+/* COLORS */
+
+.c1{
+    background-color: #023047;
+}
+  
+.c2{
+    background-color: #FFB703;
+}
+  
+.c3{
+    background-color: #FB8500;
+}
+  
+.c4{
+    background-color: #219EBC;
+}
+  
+.space {
+    margin: 20px 20px 20px 20px;
+}
+  
+.display {
+    display: flexbox;
+}
